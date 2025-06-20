@@ -197,6 +197,7 @@ const REMOTE = 'auth';
 
 module.exports = {createBranch, clone, push, areFilesChanged, getBranchesLocal, checkoutBranch};
 
+///asdasd
 async function checkoutBranch(branchName, git) {
   core.info(`Checking out branch ${branchName}.`);
   await git.fetch(REMOTE, branchName);
